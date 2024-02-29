@@ -1,0 +1,15 @@
+# # PaymentprocessorAvailabilityContext
+
+
+## Properties 
+
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**shippingAddress**| [**PaymentprocessorAvailabilityContextPostalAddress**](PaymentprocessorAvailabilityContextPostalAddress.md) |   | [optional]
+**billingAddress**| [**PaymentprocessorAvailabilityContextPostalAddress**](PaymentprocessorAvailabilityContextPostalAddress.md) |   | [optional]
+**customer**| [**AvailabilityContextCustomer**](AvailabilityContextCustomer.md) |   | [optional]
+
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
+

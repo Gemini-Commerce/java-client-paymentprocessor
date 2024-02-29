@@ -1,0 +1,17 @@
+# # PaymentprocessorVoidPaymentRequest
+
+
+## Properties 
+
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**tenantId**| **String** |   |
+**paymentId**| **String** |   | [optional]
+**code**| **String** | payment type stripe, paypal..  |
+**additionalInfo**| **String** |   | [optional]
+**transactions**| [**List<PaymentprocessorTransaction>**](PaymentprocessorTransaction.md) |   | [optional]
+
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
+
