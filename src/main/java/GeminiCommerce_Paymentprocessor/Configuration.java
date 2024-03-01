@@ -13,9 +13,9 @@
 
 package GeminiCommerce_Paymentprocessor;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-02-29T16:06:34.958279831Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-03-01T09:32:22.242441233Z[Etc/UTC]")
 public class Configuration {
-    public static final String VERSION = "1.1.0";
+    public static final String VERSION = "1.1.1";
 
     private static ApiClient defaultApiClient = new ApiClient();
 

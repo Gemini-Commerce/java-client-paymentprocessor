@@ -41,6 +41,12 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://payment-processor.api.gogemini.io");
     
+    // Configure API key authorization: Authorization
+    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
+    Authorization.setApiKey("YOUR API KEY");
+    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+    //Authorization.setApiKeyPrefix("Token");
+
     PaymentprocessorApi apiInstance = new PaymentprocessorApi(defaultClient);
     PaymentprocessorAuthorizePaymentRequest body = new PaymentprocessorAuthorizePaymentRequest(); // PaymentprocessorAuthorizePaymentRequest | 
     try {
@@ -69,7 +75,7 @@ public class Example {
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -105,6 +111,12 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://payment-processor.api.gogemini.io");
     
+    // Configure API key authorization: Authorization
+    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
+    Authorization.setApiKey("YOUR API KEY");
+    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+    //Authorization.setApiKeyPrefix("Token");
+
     PaymentprocessorApi apiInstance = new PaymentprocessorApi(defaultClient);
     PaymentprocessorCreatePaymentMethodRequest body = new PaymentprocessorCreatePaymentMethodRequest(); // PaymentprocessorCreatePaymentMethodRequest | 
     try {
@@ -133,7 +145,7 @@ public class Example {
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -169,6 +181,12 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://payment-processor.api.gogemini.io");
     
+    // Configure API key authorization: Authorization
+    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
+    Authorization.setApiKey("YOUR API KEY");
+    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+    //Authorization.setApiKeyPrefix("Token");
+
     PaymentprocessorApi apiInstance = new PaymentprocessorApi(defaultClient);
     PaymentprocessorFinalizePaymentRequest body = new PaymentprocessorFinalizePaymentRequest(); // PaymentprocessorFinalizePaymentRequest | 
     try {
@@ -197,7 +215,7 @@ public class Example {
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -233,6 +251,12 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://payment-processor.api.gogemini.io");
     
+    // Configure API key authorization: Authorization
+    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
+    Authorization.setApiKey("YOUR API KEY");
+    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+    //Authorization.setApiKeyPrefix("Token");
+
     PaymentprocessorApi apiInstance = new PaymentprocessorApi(defaultClient);
     PaymentprocessorGetAvailablePaymentMethodRequest body = new PaymentprocessorGetAvailablePaymentMethodRequest(); // PaymentprocessorGetAvailablePaymentMethodRequest | 
     try {
@@ -261,7 +285,7 @@ public class Example {
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -297,6 +321,12 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://payment-processor.api.gogemini.io");
     
+    // Configure API key authorization: Authorization
+    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
+    Authorization.setApiKey("YOUR API KEY");
+    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+    //Authorization.setApiKeyPrefix("Token");
+
     PaymentprocessorApi apiInstance = new PaymentprocessorApi(defaultClient);
     PaymentprocessorGetPaymentMethodRequest body = new PaymentprocessorGetPaymentMethodRequest(); // PaymentprocessorGetPaymentMethodRequest | 
     try {
@@ -325,7 +355,7 @@ public class Example {
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -361,6 +391,12 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://payment-processor.api.gogemini.io");
     
+    // Configure API key authorization: Authorization
+    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
+    Authorization.setApiKey("YOUR API KEY");
+    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+    //Authorization.setApiKeyPrefix("Token");
+
     PaymentprocessorApi apiInstance = new PaymentprocessorApi(defaultClient);
     PaymentprocessorGetPaymentMethodConfigurationRequest body = new PaymentprocessorGetPaymentMethodConfigurationRequest(); // PaymentprocessorGetPaymentMethodConfigurationRequest | 
     try {
@@ -389,7 +425,7 @@ public class Example {
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -425,6 +461,12 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://payment-processor.api.gogemini.io");
     
+    // Configure API key authorization: Authorization
+    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
+    Authorization.setApiKey("YOUR API KEY");
+    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+    //Authorization.setApiKeyPrefix("Token");
+
     PaymentprocessorApi apiInstance = new PaymentprocessorApi(defaultClient);
     PaymentprocessorInitPaymentRequest body = new PaymentprocessorInitPaymentRequest(); // PaymentprocessorInitPaymentRequest | 
     try {
@@ -453,7 +495,7 @@ public class Example {
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -489,6 +531,12 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://payment-processor.api.gogemini.io");
     
+    // Configure API key authorization: Authorization
+    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
+    Authorization.setApiKey("YOUR API KEY");
+    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+    //Authorization.setApiKeyPrefix("Token");
+
     PaymentprocessorApi apiInstance = new PaymentprocessorApi(defaultClient);
     PaymentprocessorListAvailablePaymentMethodsRequest body = new PaymentprocessorListAvailablePaymentMethodsRequest(); // PaymentprocessorListAvailablePaymentMethodsRequest | 
     try {
@@ -517,7 +565,7 @@ public class Example {
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -553,6 +601,12 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://payment-processor.api.gogemini.io");
     
+    // Configure API key authorization: Authorization
+    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
+    Authorization.setApiKey("YOUR API KEY");
+    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+    //Authorization.setApiKeyPrefix("Token");
+
     PaymentprocessorApi apiInstance = new PaymentprocessorApi(defaultClient);
     PaymentprocessorListPaymentMethodsRequest body = new PaymentprocessorListPaymentMethodsRequest(); // PaymentprocessorListPaymentMethodsRequest | 
     try {
@@ -581,7 +635,7 @@ public class Example {
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -617,6 +671,12 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://payment-processor.api.gogemini.io");
     
+    // Configure API key authorization: Authorization
+    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
+    Authorization.setApiKey("YOUR API KEY");
+    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+    //Authorization.setApiKeyPrefix("Token");
+
     PaymentprocessorApi apiInstance = new PaymentprocessorApi(defaultClient);
     PaymentprocessorPerformPaymentRequest body = new PaymentprocessorPerformPaymentRequest(); // PaymentprocessorPerformPaymentRequest | 
     try {
@@ -645,7 +705,7 @@ public class Example {
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -681,6 +741,12 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://payment-processor.api.gogemini.io");
     
+    // Configure API key authorization: Authorization
+    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
+    Authorization.setApiKey("YOUR API KEY");
+    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+    //Authorization.setApiKeyPrefix("Token");
+
     PaymentprocessorApi apiInstance = new PaymentprocessorApi(defaultClient);
     PaymentprocessorPerformRefundRequest body = new PaymentprocessorPerformRefundRequest(); // PaymentprocessorPerformRefundRequest | 
     try {
@@ -709,7 +775,7 @@ public class Example {
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -745,6 +811,12 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://payment-processor.api.gogemini.io");
     
+    // Configure API key authorization: Authorization
+    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
+    Authorization.setApiKey("YOUR API KEY");
+    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+    //Authorization.setApiKeyPrefix("Token");
+
     PaymentprocessorApi apiInstance = new PaymentprocessorApi(defaultClient);
     PaymentprocessorUpdatePaymentRequest body = new PaymentprocessorUpdatePaymentRequest(); // PaymentprocessorUpdatePaymentRequest | 
     try {
@@ -773,7 +845,7 @@ public class Example {
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -809,6 +881,12 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://payment-processor.api.gogemini.io");
     
+    // Configure API key authorization: Authorization
+    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
+    Authorization.setApiKey("YOUR API KEY");
+    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+    //Authorization.setApiKeyPrefix("Token");
+
     PaymentprocessorApi apiInstance = new PaymentprocessorApi(defaultClient);
     PaymentprocessorUpdatePaymentMethodRequest body = new PaymentprocessorUpdatePaymentMethodRequest(); // PaymentprocessorUpdatePaymentMethodRequest | 
     try {
@@ -837,7 +915,7 @@ public class Example {
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -873,6 +951,12 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://payment-processor.api.gogemini.io");
     
+    // Configure API key authorization: Authorization
+    ApiKeyAuth Authorization = (ApiKeyAuth) defaultClient.getAuthentication("Authorization");
+    Authorization.setApiKey("YOUR API KEY");
+    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+    //Authorization.setApiKeyPrefix("Token");
+
     PaymentprocessorApi apiInstance = new PaymentprocessorApi(defaultClient);
     PaymentprocessorVoidPaymentRequest body = new PaymentprocessorVoidPaymentRequest(); // PaymentprocessorVoidPaymentRequest | 
     try {
@@ -901,7 +985,7 @@ public class Example {
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
