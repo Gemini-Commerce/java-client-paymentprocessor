@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 **_configuration**| **Object** |   | [optional]
 **isUpfront**| **Boolean** |   | [optional]
 **description**| [**PaymentprocessorLocalizedText**](PaymentprocessorLocalizedText.md) |   | [optional]
-**restrictions**| [**List<PaymentprocessorPaymentMethodRestriction>**](PaymentprocessorPaymentMethodRestriction.md) |   | [optional]
+**restrictions**| [**List<PaymentprocessorPaymentMethodRestriction>**](PaymentprocessorPaymentMethodRestriction.md) |   | [optional] [default to new ArrayList<>()]
 **fieldMask**| **String** |   | [optional]
 
 

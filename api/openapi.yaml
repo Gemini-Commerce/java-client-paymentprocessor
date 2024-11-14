@@ -58,7 +58,8 @@ paths:
       - Paymentprocessor
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /paymentprocessor.Paymentprocessor/CreatePaymentMethod:
     post:
       operationId: CreatePaymentMethod
@@ -99,7 +100,8 @@ paths:
       - Paymentprocessor
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /paymentprocessor.Paymentprocessor/FinalizePayment:
     post:
       operationId: FinalizePayment
@@ -140,7 +142,8 @@ paths:
       - Paymentprocessor
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /paymentprocessor.Paymentprocessor/GetAvailablePaymentMethod:
     post:
       operationId: GetAvailablePaymentMethod
@@ -181,7 +184,8 @@ paths:
       - Paymentprocessor
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /paymentprocessor.Paymentprocessor/GetPaymentMethod:
     post:
       operationId: GetPaymentMethod
@@ -222,7 +226,8 @@ paths:
       - Paymentprocessor
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /paymentprocessor.Paymentprocessor/GetPaymentMethodConfiguration:
     post:
       operationId: GetPaymentMethodConfiguration
@@ -263,7 +268,8 @@ paths:
       - Paymentprocessor
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /paymentprocessor.Paymentprocessor/InitPayment:
     post:
       operationId: InitPayment
@@ -304,7 +310,8 @@ paths:
       - Paymentprocessor
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /paymentprocessor.Paymentprocessor/ListAvailablePaymentMethods:
     post:
       operationId: ListAvailablePaymentMethods
@@ -345,7 +352,8 @@ paths:
       - Paymentprocessor
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /paymentprocessor.Paymentprocessor/ListPaymentMethods:
     post:
       operationId: ListPaymentMethods
@@ -386,7 +394,8 @@ paths:
       - Paymentprocessor
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /paymentprocessor.Paymentprocessor/PerformPayment:
     post:
       operationId: PerformPayment
@@ -427,7 +436,8 @@ paths:
       - Paymentprocessor
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /paymentprocessor.Paymentprocessor/PerformRefund:
     post:
       operationId: PerformRefund
@@ -468,7 +478,8 @@ paths:
       - Paymentprocessor
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /paymentprocessor.Paymentprocessor/UpdatePayment:
     post:
       operationId: UpdatePayment
@@ -509,7 +520,8 @@ paths:
       - Paymentprocessor
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /paymentprocessor.Paymentprocessor/UpdatePaymentMethod:
     post:
       operationId: UpdatePaymentMethod
@@ -550,7 +562,8 @@ paths:
       - Paymentprocessor
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /paymentprocessor.Paymentprocessor/VoidPayment:
     post:
       operationId: VoidPayment
@@ -591,7 +604,8 @@ paths:
       - Paymentprocessor
       x-codegen-request-body-name: body
       x-content-type: application/json
-      x-accepts: application/json
+      x-accepts:
+      - application/json
 components:
   schemas:
     AvailabilityContextCustomer:
@@ -658,7 +672,7 @@ components:
           - null
           additionalInfo: additionalInfo
           id: id
-          type: null
+          type: UNKNOWN
       properties:
         transaction:
           $ref: '#/components/schemas/paymentprocessorTransaction'
@@ -948,7 +962,7 @@ components:
           - null
           additionalInfo: additionalInfo
           id: id
-          type: null
+          type: UNKNOWN
       properties:
         transaction:
           $ref: '#/components/schemas/paymentprocessorTransaction'
@@ -1120,32 +1134,32 @@ components:
               key: value
           restrictions:
           - conditions:
-            - condition: null
+            - condition: IN
               values:
               - values
               - values
               contextPath: contextPath
-              action: null
-            - condition: null
+              action: DISALLOW
+            - condition: IN
               values:
               - values
               - values
               contextPath: contextPath
-              action: null
+              action: DISALLOW
           - conditions:
-            - condition: null
+            - condition: IN
               values:
               - values
               - values
               contextPath: contextPath
-              action: null
-            - condition: null
+              action: DISALLOW
+            - condition: IN
               values:
               - values
               - values
               contextPath: contextPath
-              action: null
-          currency: null
+              action: DISALLOW
+          currency: XXX
           label:
             value:
               key: value
@@ -1164,32 +1178,32 @@ components:
               key: value
           restrictions:
           - conditions:
-            - condition: null
+            - condition: IN
               values:
               - values
               - values
               contextPath: contextPath
-              action: null
-            - condition: null
+              action: DISALLOW
+            - condition: IN
               values:
               - values
               - values
               contextPath: contextPath
-              action: null
+              action: DISALLOW
           - conditions:
-            - condition: null
+            - condition: IN
               values:
               - values
               - values
               contextPath: contextPath
-              action: null
-            - condition: null
+              action: DISALLOW
+            - condition: IN
               values:
               - values
               - values
               contextPath: contextPath
-              action: null
-          currency: null
+              action: DISALLOW
+          currency: XXX
           label:
             value:
               key: value
@@ -1226,32 +1240,32 @@ components:
               key: value
           restrictions:
           - conditions:
-            - condition: null
+            - condition: IN
               values:
               - values
               - values
               contextPath: contextPath
-              action: null
-            - condition: null
+              action: DISALLOW
+            - condition: IN
               values:
               - values
               - values
               contextPath: contextPath
-              action: null
+              action: DISALLOW
           - conditions:
-            - condition: null
+            - condition: IN
               values:
               - values
               - values
               contextPath: contextPath
-              action: null
-            - condition: null
+              action: DISALLOW
+            - condition: IN
               values:
               - values
               - values
               contextPath: contextPath
-              action: null
-          currency: null
+              action: DISALLOW
+          currency: XXX
           label:
             value:
               key: value
@@ -1270,32 +1284,32 @@ components:
               key: value
           restrictions:
           - conditions:
-            - condition: null
+            - condition: IN
               values:
               - values
               - values
               contextPath: contextPath
-              action: null
-            - condition: null
+              action: DISALLOW
+            - condition: IN
               values:
               - values
               - values
               contextPath: contextPath
-              action: null
+              action: DISALLOW
           - conditions:
-            - condition: null
+            - condition: IN
               values:
               - values
               - values
               contextPath: contextPath
-              action: null
-            - condition: null
+              action: DISALLOW
+            - condition: IN
               values:
               - values
               - values
               contextPath: contextPath
-              action: null
-          currency: null
+              action: DISALLOW
+          currency: XXX
           label:
             value:
               key: value
@@ -1381,32 +1395,32 @@ components:
             key: value
         restrictions:
         - conditions:
-          - condition: null
+          - condition: IN
             values:
             - values
             - values
             contextPath: contextPath
-            action: null
-          - condition: null
+            action: DISALLOW
+          - condition: IN
             values:
             - values
             - values
             contextPath: contextPath
-            action: null
+            action: DISALLOW
         - conditions:
-          - condition: null
+          - condition: IN
             values:
             - values
             - values
             contextPath: contextPath
-            action: null
-          - condition: null
+            action: DISALLOW
+          - condition: IN
             values:
             - values
             - values
             contextPath: contextPath
-            action: null
-        currency: null
+            action: DISALLOW
+        currency: XXX
         label:
           value:
             key: value
@@ -1447,18 +1461,18 @@ components:
     paymentprocessorPaymentMethodRestriction:
       example:
         conditions:
-        - condition: null
+        - condition: IN
           values:
           - values
           - values
           contextPath: contextPath
-          action: null
-        - condition: null
+          action: DISALLOW
+        - condition: IN
           values:
           - values
           - values
           contextPath: contextPath
-          action: null
+          action: DISALLOW
       properties:
         conditions:
           items:
@@ -1467,12 +1481,12 @@ components:
       type: object
     paymentprocessorPaymentMethodRestrictionCondition:
       example:
-        condition: null
+        condition: IN
         values:
         - values
         - values
         contextPath: contextPath
-        action: null
+        action: DISALLOW
       properties:
         contextPath:
           type: string
@@ -1680,7 +1694,7 @@ components:
         - null
         additionalInfo: additionalInfo
         id: id
-        type: null
+        type: UNKNOWN
       properties:
         paymentId:
           type: string
@@ -1806,7 +1820,7 @@ components:
           - null
           additionalInfo: additionalInfo
           id: id
-          type: null
+          type: UNKNOWN
       properties:
         transaction:
           $ref: '#/components/schemas/paymentprocessorTransaction'
@@ -1816,6 +1830,8 @@ components:
     protobufAny:
       additionalProperties:
         type: object
+      example:
+        '@type': '@type'
       properties:
         '@type':
           type: string
@@ -1833,6 +1849,12 @@ components:
       - NULL_VALUE
       type: string
     rpcStatus:
+      example:
+        code: 0
+        details:
+        - '@type': '@type'
+        - '@type': '@type'
+        message: message
       properties:
         code:
           format: int32

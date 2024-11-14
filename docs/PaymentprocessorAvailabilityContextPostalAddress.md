@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 **postalCode**| **String** |   | [optional]
 **firstname**| **String** |   | [optional]
 **lastname**| **String** |   | [optional]
-**addressLines**| **List<String>** |   | [optional]
+**addressLines**| **List<String>** |   | [optional] [default to new ArrayList<>()]
 **additionalInfo**| **Object** |   | [optional]
 
 

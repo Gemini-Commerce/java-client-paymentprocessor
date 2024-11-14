@@ -13,14 +13,14 @@
 
 package org.openapitools.client.api;
 
-import GeminiCommerce_Paymentprocessor.ApiCallback;
-import GeminiCommerce_Paymentprocessor.ApiClient;
-import GeminiCommerce_Paymentprocessor.ApiException;
-import GeminiCommerce_Paymentprocessor.ApiResponse;
-import GeminiCommerce_Paymentprocessor.Configuration;
-import GeminiCommerce_Paymentprocessor.Pair;
-import GeminiCommerce_Paymentprocessor.ProgressRequestBody;
-import GeminiCommerce_Paymentprocessor.ProgressResponseBody;
+import GeminiCommerce.Paymentprocessor.ApiCallback;
+import GeminiCommerce.Paymentprocessor.ApiClient;
+import GeminiCommerce.Paymentprocessor.ApiException;
+import GeminiCommerce.Paymentprocessor.ApiResponse;
+import GeminiCommerce.Paymentprocessor.Configuration;
+import GeminiCommerce.Paymentprocessor.Pair;
+import GeminiCommerce.Paymentprocessor.ProgressRequestBody;
+import GeminiCommerce.Paymentprocessor.ProgressResponseBody;
 
 import com.google.gson.reflect.TypeToken;
 

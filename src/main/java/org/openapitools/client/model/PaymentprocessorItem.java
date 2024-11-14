@@ -40,19 +40,18 @@ import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 import java.io.IOException;
 
-import java.lang.reflect.Type;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import GeminiCommerce_Paymentprocessor.JSON;
+import GeminiCommerce.Paymentprocessor.JSON;
 
 /**
  * PaymentprocessorItem
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-03-01T09:32:22.242441233Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-11-14T11:54:07.381606329Z[Etc/UTC]", comments = "Generator version: 7.9.0")
 public class PaymentprocessorItem {
   public static final String SERIALIZED_NAME_ID = "id";
   @SerializedName(SERIALIZED_NAME_ID)
@@ -148,7 +147,7 @@ public class PaymentprocessorItem {
 
   public static final String SERIALIZED_NAME_PROMOTION_GRN = "promotionGrn";
   @SerializedName(SERIALIZED_NAME_PROMOTION_GRN)
-  private List<String> promotionGrn;
+  private List<String> promotionGrn = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_PRODUCT_IS_VIRTUAL = "productIsVirtual";
   @SerializedName(SERIALIZED_NAME_PRODUCT_IS_VIRTUAL)
@@ -162,10 +161,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get id
    * @return id
-  **/
+   */
   @javax.annotation.Nullable
   public String getId() {
     return id;
@@ -181,10 +180,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get productGrn
    * @return productGrn
-  **/
+   */
   @javax.annotation.Nullable
   public String getProductGrn() {
     return productGrn;
@@ -200,10 +199,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get qtyOrdered
    * @return qtyOrdered
-  **/
+   */
   @javax.annotation.Nullable
   public Long getQtyOrdered() {
     return qtyOrdered;
@@ -219,10 +218,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get qtyCommitted
    * @return qtyCommitted
-  **/
+   */
   @javax.annotation.Nullable
   public Long getQtyCommitted() {
     return qtyCommitted;
@@ -238,10 +237,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get unitSalePrice
    * @return unitSalePrice
-  **/
+   */
   @javax.annotation.Nullable
   public PaymentprocessorMoney getUnitSalePrice() {
     return unitSalePrice;
@@ -257,10 +256,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get unitListPrice
    * @return unitListPrice
-  **/
+   */
   @javax.annotation.Nullable
   public PaymentprocessorMoney getUnitListPrice() {
     return unitListPrice;
@@ -276,10 +275,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get unitBasePrice
    * @return unitBasePrice
-  **/
+   */
   @javax.annotation.Nullable
   public PaymentprocessorMoney getUnitBasePrice() {
     return unitBasePrice;
@@ -295,10 +294,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get unitVatAmount
    * @return unitVatAmount
-  **/
+   */
   @javax.annotation.Nullable
   public PaymentprocessorMoney getUnitVatAmount() {
     return unitVatAmount;
@@ -314,10 +313,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get rowSalePrice
    * @return rowSalePrice
-  **/
+   */
   @javax.annotation.Nullable
   public PaymentprocessorMoney getRowSalePrice() {
     return rowSalePrice;
@@ -333,10 +332,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get rowListPrice
    * @return rowListPrice
-  **/
+   */
   @javax.annotation.Nullable
   public PaymentprocessorMoney getRowListPrice() {
     return rowListPrice;
@@ -352,10 +351,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get rowVatAmount
    * @return rowVatAmount
-  **/
+   */
   @javax.annotation.Nullable
   public PaymentprocessorMoney getRowVatAmount() {
     return rowVatAmount;
@@ -371,10 +370,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get discountAmount
    * @return discountAmount
-  **/
+   */
   @javax.annotation.Nullable
   public PaymentprocessorMoney getDiscountAmount() {
     return discountAmount;
@@ -390,10 +389,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get rowBasePrice
    * @return rowBasePrice
-  **/
+   */
   @javax.annotation.Nullable
   public PaymentprocessorMoney getRowBasePrice() {
     return rowBasePrice;
@@ -409,10 +408,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get vatPercentage
    * @return vatPercentage
-  **/
+   */
   @javax.annotation.Nullable
   public Float getVatPercentage() {
     return vatPercentage;
@@ -428,10 +427,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get vatInaccurate
    * @return vatInaccurate
-  **/
+   */
   @javax.annotation.Nullable
   public Boolean getVatInaccurate() {
     return vatInaccurate;
@@ -447,10 +446,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get vatCalculated
    * @return vatCalculated
-  **/
+   */
   @javax.annotation.Nullable
   public Boolean getVatCalculated() {
     return vatCalculated;
@@ -466,10 +465,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get productName
    * @return productName
-  **/
+   */
   @javax.annotation.Nullable
   public String getProductName() {
     return productName;
@@ -485,10 +484,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get productCode
    * @return productCode
-  **/
+   */
   @javax.annotation.Nullable
   public String getProductCode() {
     return productCode;
@@ -504,10 +503,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get productSku
    * @return productSku
-  **/
+   */
   @javax.annotation.Nullable
   public String getProductSku() {
     return productSku;
@@ -523,10 +522,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get productOptions
    * @return productOptions
-  **/
+   */
   @javax.annotation.Nullable
   public String getProductOptions() {
     return productOptions;
@@ -542,10 +541,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get productImg
    * @return productImg
-  **/
+   */
   @javax.annotation.Nullable
   public String getProductImg() {
     return productImg;
@@ -561,10 +560,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get productData
    * @return productData
-  **/
+   */
   @javax.annotation.Nullable
   public String getProductData() {
     return productData;
@@ -580,10 +579,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get shipmentInfoReference
    * @return shipmentInfoReference
-  **/
+   */
   @javax.annotation.Nullable
   public String getShipmentInfoReference() {
     return shipmentInfoReference;
@@ -607,10 +606,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get promotionGrn
    * @return promotionGrn
-  **/
+   */
   @javax.annotation.Nullable
   public List<String> getPromotionGrn() {
     return promotionGrn;
@@ -626,10 +625,10 @@ public class PaymentprocessorItem {
     return this;
   }
 
-   /**
+  /**
    * Get productIsVirtual
    * @return productIsVirtual
-  **/
+   */
   @javax.annotation.Nullable
   public Boolean getProductIsVirtual() {
     return productIsVirtual;
@@ -639,6 +638,50 @@ public class PaymentprocessorItem {
     this.productIsVirtual = productIsVirtual;
   }
 
+  /**
+   * A container for additional, undeclared properties.
+   * This is a holder for any undeclared properties as specified with
+   * the 'additionalProperties' keyword in the OAS document.
+   */
+  private Map<String, Object> additionalProperties;
+
+  /**
+   * Set the additional (undeclared) property with the specified name and value.
+   * If the property does not already exist, create it otherwise replace it.
+   *
+   * @param key name of the property
+   * @param value value of the property
+   * @return the PaymentprocessorItem instance itself
+   */
+  public PaymentprocessorItem putAdditionalProperty(String key, Object value) {
+    if (this.additionalProperties == null) {
+        this.additionalProperties = new HashMap<String, Object>();
+    }
+    this.additionalProperties.put(key, value);
+    return this;
+  }
+
+  /**
+   * Return the additional (undeclared) property.
+   *
+   * @return a map of objects
+   */
+  public Map<String, Object> getAdditionalProperties() {
+    return additionalProperties;
+  }
+
+  /**
+   * Return the additional (undeclared) property with the specified name.
+   *
+   * @param key name of the property
+   * @return an object
+   */
+  public Object getAdditionalProperty(String key) {
+    if (this.additionalProperties == null) {
+        return null;
+    }
+    return this.additionalProperties.get(key);
+  }
 
 
   @Override
@@ -674,12 +717,13 @@ public class PaymentprocessorItem {
         Objects.equals(this.productData, paymentprocessorItem.productData) &&
         Objects.equals(this.shipmentInfoReference, paymentprocessorItem.shipmentInfoReference) &&
         Objects.equals(this.promotionGrn, paymentprocessorItem.promotionGrn) &&
-        Objects.equals(this.productIsVirtual, paymentprocessorItem.productIsVirtual);
+        Objects.equals(this.productIsVirtual, paymentprocessorItem.productIsVirtual)&&
+        Objects.equals(this.additionalProperties, paymentprocessorItem.additionalProperties);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(id, productGrn, qtyOrdered, qtyCommitted, unitSalePrice, unitListPrice, unitBasePrice, unitVatAmount, rowSalePrice, rowListPrice, rowVatAmount, discountAmount, rowBasePrice, vatPercentage, vatInaccurate, vatCalculated, productName, productCode, productSku, productOptions, productImg, productData, shipmentInfoReference, promotionGrn, productIsVirtual);
+    return Objects.hash(id, productGrn, qtyOrdered, qtyCommitted, unitSalePrice, unitListPrice, unitBasePrice, unitVatAmount, rowSalePrice, rowListPrice, rowVatAmount, discountAmount, rowBasePrice, vatPercentage, vatInaccurate, vatCalculated, productName, productCode, productSku, productOptions, productImg, productData, shipmentInfoReference, promotionGrn, productIsVirtual, additionalProperties);
   }
 
   @Override
@@ -711,6 +755,7 @@ public class PaymentprocessorItem {
     sb.append("    shipmentInfoReference: ").append(toIndentedString(shipmentInfoReference)).append("\n");
     sb.append("    promotionGrn: ").append(toIndentedString(promotionGrn)).append("\n");
     sb.append("    productIsVirtual: ").append(toIndentedString(productIsVirtual)).append("\n");
+    sb.append("    additionalProperties: ").append(toIndentedString(additionalProperties)).append("\n");
     sb.append("}");
     return sb.toString();
   }
@@ -763,24 +808,16 @@ public class PaymentprocessorItem {
     openapiRequiredFields = new HashSet<String>();
   }
 
- /**
-  * Validates the JSON Element and throws an exception if issues found
-  *
-  * @param jsonElement JSON Element
-  * @throws IOException if the JSON Element is invalid with respect to PaymentprocessorItem
-  */
+  /**
+   * Validates the JSON Element and throws an exception if issues found
+   *
+   * @param jsonElement JSON Element
+   * @throws IOException if the JSON Element is invalid with respect to PaymentprocessorItem
+   */
   public static void validateJsonElement(JsonElement jsonElement) throws IOException {
       if (jsonElement == null) {
         if (!PaymentprocessorItem.openapiRequiredFields.isEmpty()) { // has required fields but JSON element is null
           throw new IllegalArgumentException(String.format("The required field(s) %s in PaymentprocessorItem is not found in the empty JSON string", PaymentprocessorItem.openapiRequiredFields.toString()));
-        }
-      }
-
-      Set<Map.Entry<String, JsonElement>> entries = jsonElement.getAsJsonObject().entrySet();
-      // check to see if the JSON string contains additional fields
-      for (Map.Entry<String, JsonElement> entry : entries) {
-        if (!PaymentprocessorItem.openapiFields.contains(entry.getKey())) {
-          throw new IllegalArgumentException(String.format("The field `%s` in the JSON string is not defined in the `PaymentprocessorItem` properties. JSON: %s", entry.getKey(), jsonElement.toString()));
         }
       }
         JsonObject jsonObj = jsonElement.getAsJsonObject();
@@ -868,6 +905,28 @@ public class PaymentprocessorItem {
            @Override
            public void write(JsonWriter out, PaymentprocessorItem value) throws IOException {
              JsonObject obj = thisAdapter.toJsonTree(value).getAsJsonObject();
+             obj.remove("additionalProperties");
+             // serialize additional properties
+             if (value.getAdditionalProperties() != null) {
+               for (Map.Entry<String, Object> entry : value.getAdditionalProperties().entrySet()) {
+                 if (entry.getValue() instanceof String)
+                   obj.addProperty(entry.getKey(), (String) entry.getValue());
+                 else if (entry.getValue() instanceof Number)
+                   obj.addProperty(entry.getKey(), (Number) entry.getValue());
+                 else if (entry.getValue() instanceof Boolean)
+                   obj.addProperty(entry.getKey(), (Boolean) entry.getValue());
+                 else if (entry.getValue() instanceof Character)
+                   obj.addProperty(entry.getKey(), (Character) entry.getValue());
+                 else {
+                   JsonElement jsonElement = gson.toJsonTree(entry.getValue());
+                   if (jsonElement.isJsonArray()) {
+                     obj.add(entry.getKey(), jsonElement.getAsJsonArray());
+                   } else {
+                     obj.add(entry.getKey(), jsonElement.getAsJsonObject());
+                   }
+                 }
+               }
+             }
              elementAdapter.write(out, obj);
            }
 
@@ -875,29 +934,50 @@ public class PaymentprocessorItem {
            public PaymentprocessorItem read(JsonReader in) throws IOException {
              JsonElement jsonElement = elementAdapter.read(in);
              validateJsonElement(jsonElement);
-             return thisAdapter.fromJsonTree(jsonElement);
+             JsonObject jsonObj = jsonElement.getAsJsonObject();
+             // store additional fields in the deserialized instance
+             PaymentprocessorItem instance = thisAdapter.fromJsonTree(jsonObj);
+             for (Map.Entry<String, JsonElement> entry : jsonObj.entrySet()) {
+               if (!openapiFields.contains(entry.getKey())) {
+                 if (entry.getValue().isJsonPrimitive()) { // primitive type
+                   if (entry.getValue().getAsJsonPrimitive().isString())
+                     instance.putAdditionalProperty(entry.getKey(), entry.getValue().getAsString());
+                   else if (entry.getValue().getAsJsonPrimitive().isNumber())
+                     instance.putAdditionalProperty(entry.getKey(), entry.getValue().getAsNumber());
+                   else if (entry.getValue().getAsJsonPrimitive().isBoolean())
+                     instance.putAdditionalProperty(entry.getKey(), entry.getValue().getAsBoolean());
+                   else
+                     throw new IllegalArgumentException(String.format("The field `%s` has unknown primitive type. Value: %s", entry.getKey(), entry.getValue().toString()));
+                 } else if (entry.getValue().isJsonArray()) {
+                     instance.putAdditionalProperty(entry.getKey(), gson.fromJson(entry.getValue(), List.class));
+                 } else { // JSON object
+                     instance.putAdditionalProperty(entry.getKey(), gson.fromJson(entry.getValue(), HashMap.class));
+                 }
+               }
+             }
+             return instance;
            }
 
        }.nullSafe();
     }
   }
 
- /**
-  * Create an instance of PaymentprocessorItem given an JSON string
-  *
-  * @param jsonString JSON string
-  * @return An instance of PaymentprocessorItem
-  * @throws IOException if the JSON string is invalid with respect to PaymentprocessorItem
-  */
+  /**
+   * Create an instance of PaymentprocessorItem given an JSON string
+   *
+   * @param jsonString JSON string
+   * @return An instance of PaymentprocessorItem
+   * @throws IOException if the JSON string is invalid with respect to PaymentprocessorItem
+   */
   public static PaymentprocessorItem fromJson(String jsonString) throws IOException {
     return JSON.getGson().fromJson(jsonString, PaymentprocessorItem.class);
   }
 
- /**
-  * Convert an instance of PaymentprocessorItem to an JSON string
-  *
-  * @return JSON string
-  */
+  /**
+   * Convert an instance of PaymentprocessorItem to an JSON string
+   *
+   * @return JSON string
+   */
   public String toJson() {
     return JSON.getGson().toJson(this);
   }

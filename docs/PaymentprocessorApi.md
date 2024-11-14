@@ -29,11 +29,11 @@ Authorize Payment
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Paymentprocessor.ApiClient;
-import GeminiCommerce_Paymentprocessor.ApiException;
-import GeminiCommerce_Paymentprocessor.Configuration;
-import GeminiCommerce_Paymentprocessor.auth.*;
-import GeminiCommerce_Paymentprocessor.models.*;
+import GeminiCommerce.Paymentprocessor.ApiClient;
+import GeminiCommerce.Paymentprocessor.ApiException;
+import GeminiCommerce.Paymentprocessor.Configuration;
+import GeminiCommerce.Paymentprocessor.auth.*;
+import GeminiCommerce.Paymentprocessor.models.*;
 import org.openapitools.client.api.PaymentprocessorApi;
 
 public class Example {
@@ -99,11 +99,11 @@ Create Payment Method
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Paymentprocessor.ApiClient;
-import GeminiCommerce_Paymentprocessor.ApiException;
-import GeminiCommerce_Paymentprocessor.Configuration;
-import GeminiCommerce_Paymentprocessor.auth.*;
-import GeminiCommerce_Paymentprocessor.models.*;
+import GeminiCommerce.Paymentprocessor.ApiClient;
+import GeminiCommerce.Paymentprocessor.ApiException;
+import GeminiCommerce.Paymentprocessor.Configuration;
+import GeminiCommerce.Paymentprocessor.auth.*;
+import GeminiCommerce.Paymentprocessor.models.*;
 import org.openapitools.client.api.PaymentprocessorApi;
 
 public class Example {
@@ -169,11 +169,11 @@ Finalize Payment
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Paymentprocessor.ApiClient;
-import GeminiCommerce_Paymentprocessor.ApiException;
-import GeminiCommerce_Paymentprocessor.Configuration;
-import GeminiCommerce_Paymentprocessor.auth.*;
-import GeminiCommerce_Paymentprocessor.models.*;
+import GeminiCommerce.Paymentprocessor.ApiClient;
+import GeminiCommerce.Paymentprocessor.ApiException;
+import GeminiCommerce.Paymentprocessor.Configuration;
+import GeminiCommerce.Paymentprocessor.auth.*;
+import GeminiCommerce.Paymentprocessor.models.*;
 import org.openapitools.client.api.PaymentprocessorApi;
 
 public class Example {
@@ -239,11 +239,11 @@ Get Available Payment Method
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Paymentprocessor.ApiClient;
-import GeminiCommerce_Paymentprocessor.ApiException;
-import GeminiCommerce_Paymentprocessor.Configuration;
-import GeminiCommerce_Paymentprocessor.auth.*;
-import GeminiCommerce_Paymentprocessor.models.*;
+import GeminiCommerce.Paymentprocessor.ApiClient;
+import GeminiCommerce.Paymentprocessor.ApiException;
+import GeminiCommerce.Paymentprocessor.Configuration;
+import GeminiCommerce.Paymentprocessor.auth.*;
+import GeminiCommerce.Paymentprocessor.models.*;
 import org.openapitools.client.api.PaymentprocessorApi;
 
 public class Example {
@@ -309,11 +309,11 @@ Get Payment Method
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Paymentprocessor.ApiClient;
-import GeminiCommerce_Paymentprocessor.ApiException;
-import GeminiCommerce_Paymentprocessor.Configuration;
-import GeminiCommerce_Paymentprocessor.auth.*;
-import GeminiCommerce_Paymentprocessor.models.*;
+import GeminiCommerce.Paymentprocessor.ApiClient;
+import GeminiCommerce.Paymentprocessor.ApiException;
+import GeminiCommerce.Paymentprocessor.Configuration;
+import GeminiCommerce.Paymentprocessor.auth.*;
+import GeminiCommerce.Paymentprocessor.models.*;
 import org.openapitools.client.api.PaymentprocessorApi;
 
 public class Example {
@@ -379,11 +379,11 @@ Get Payment Method Configuration
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Paymentprocessor.ApiClient;
-import GeminiCommerce_Paymentprocessor.ApiException;
-import GeminiCommerce_Paymentprocessor.Configuration;
-import GeminiCommerce_Paymentprocessor.auth.*;
-import GeminiCommerce_Paymentprocessor.models.*;
+import GeminiCommerce.Paymentprocessor.ApiClient;
+import GeminiCommerce.Paymentprocessor.ApiException;
+import GeminiCommerce.Paymentprocessor.Configuration;
+import GeminiCommerce.Paymentprocessor.auth.*;
+import GeminiCommerce.Paymentprocessor.models.*;
 import org.openapitools.client.api.PaymentprocessorApi;
 
 public class Example {
@@ -449,11 +449,11 @@ Init Payment
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Paymentprocessor.ApiClient;
-import GeminiCommerce_Paymentprocessor.ApiException;
-import GeminiCommerce_Paymentprocessor.Configuration;
-import GeminiCommerce_Paymentprocessor.auth.*;
-import GeminiCommerce_Paymentprocessor.models.*;
+import GeminiCommerce.Paymentprocessor.ApiClient;
+import GeminiCommerce.Paymentprocessor.ApiException;
+import GeminiCommerce.Paymentprocessor.Configuration;
+import GeminiCommerce.Paymentprocessor.auth.*;
+import GeminiCommerce.Paymentprocessor.models.*;
 import org.openapitools.client.api.PaymentprocessorApi;
 
 public class Example {
@@ -519,11 +519,11 @@ List Available Payment Methods
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Paymentprocessor.ApiClient;
-import GeminiCommerce_Paymentprocessor.ApiException;
-import GeminiCommerce_Paymentprocessor.Configuration;
-import GeminiCommerce_Paymentprocessor.auth.*;
-import GeminiCommerce_Paymentprocessor.models.*;
+import GeminiCommerce.Paymentprocessor.ApiClient;
+import GeminiCommerce.Paymentprocessor.ApiException;
+import GeminiCommerce.Paymentprocessor.Configuration;
+import GeminiCommerce.Paymentprocessor.auth.*;
+import GeminiCommerce.Paymentprocessor.models.*;
 import org.openapitools.client.api.PaymentprocessorApi;
 
 public class Example {
@@ -589,11 +589,11 @@ List Payment Methods
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Paymentprocessor.ApiClient;
-import GeminiCommerce_Paymentprocessor.ApiException;
-import GeminiCommerce_Paymentprocessor.Configuration;
-import GeminiCommerce_Paymentprocessor.auth.*;
-import GeminiCommerce_Paymentprocessor.models.*;
+import GeminiCommerce.Paymentprocessor.ApiClient;
+import GeminiCommerce.Paymentprocessor.ApiException;
+import GeminiCommerce.Paymentprocessor.Configuration;
+import GeminiCommerce.Paymentprocessor.auth.*;
+import GeminiCommerce.Paymentprocessor.models.*;
 import org.openapitools.client.api.PaymentprocessorApi;
 
 public class Example {
@@ -659,11 +659,11 @@ Perform Payment
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Paymentprocessor.ApiClient;
-import GeminiCommerce_Paymentprocessor.ApiException;
-import GeminiCommerce_Paymentprocessor.Configuration;
-import GeminiCommerce_Paymentprocessor.auth.*;
-import GeminiCommerce_Paymentprocessor.models.*;
+import GeminiCommerce.Paymentprocessor.ApiClient;
+import GeminiCommerce.Paymentprocessor.ApiException;
+import GeminiCommerce.Paymentprocessor.Configuration;
+import GeminiCommerce.Paymentprocessor.auth.*;
+import GeminiCommerce.Paymentprocessor.models.*;
 import org.openapitools.client.api.PaymentprocessorApi;
 
 public class Example {
@@ -729,11 +729,11 @@ Perform Refund
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Paymentprocessor.ApiClient;
-import GeminiCommerce_Paymentprocessor.ApiException;
-import GeminiCommerce_Paymentprocessor.Configuration;
-import GeminiCommerce_Paymentprocessor.auth.*;
-import GeminiCommerce_Paymentprocessor.models.*;
+import GeminiCommerce.Paymentprocessor.ApiClient;
+import GeminiCommerce.Paymentprocessor.ApiException;
+import GeminiCommerce.Paymentprocessor.Configuration;
+import GeminiCommerce.Paymentprocessor.auth.*;
+import GeminiCommerce.Paymentprocessor.models.*;
 import org.openapitools.client.api.PaymentprocessorApi;
 
 public class Example {
@@ -799,11 +799,11 @@ Update Payment
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Paymentprocessor.ApiClient;
-import GeminiCommerce_Paymentprocessor.ApiException;
-import GeminiCommerce_Paymentprocessor.Configuration;
-import GeminiCommerce_Paymentprocessor.auth.*;
-import GeminiCommerce_Paymentprocessor.models.*;
+import GeminiCommerce.Paymentprocessor.ApiClient;
+import GeminiCommerce.Paymentprocessor.ApiException;
+import GeminiCommerce.Paymentprocessor.Configuration;
+import GeminiCommerce.Paymentprocessor.auth.*;
+import GeminiCommerce.Paymentprocessor.models.*;
 import org.openapitools.client.api.PaymentprocessorApi;
 
 public class Example {
@@ -869,11 +869,11 @@ Update Payment Method
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Paymentprocessor.ApiClient;
-import GeminiCommerce_Paymentprocessor.ApiException;
-import GeminiCommerce_Paymentprocessor.Configuration;
-import GeminiCommerce_Paymentprocessor.auth.*;
-import GeminiCommerce_Paymentprocessor.models.*;
+import GeminiCommerce.Paymentprocessor.ApiClient;
+import GeminiCommerce.Paymentprocessor.ApiException;
+import GeminiCommerce.Paymentprocessor.Configuration;
+import GeminiCommerce.Paymentprocessor.auth.*;
+import GeminiCommerce.Paymentprocessor.models.*;
 import org.openapitools.client.api.PaymentprocessorApi;
 
 public class Example {
@@ -939,11 +939,11 @@ Void Payment
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Paymentprocessor.ApiClient;
-import GeminiCommerce_Paymentprocessor.ApiException;
-import GeminiCommerce_Paymentprocessor.Configuration;
-import GeminiCommerce_Paymentprocessor.auth.*;
-import GeminiCommerce_Paymentprocessor.models.*;
+import GeminiCommerce.Paymentprocessor.ApiClient;
+import GeminiCommerce.Paymentprocessor.ApiException;
+import GeminiCommerce.Paymentprocessor.Configuration;
+import GeminiCommerce.Paymentprocessor.auth.*;
+import GeminiCommerce.Paymentprocessor.models.*;
 import org.openapitools.client.api.PaymentprocessorApi;
 
 public class Example {

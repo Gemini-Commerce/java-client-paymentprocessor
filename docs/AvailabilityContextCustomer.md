@@ -6,7 +6,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**segments**| **List<String>** |   | [optional]
+**segments**| **List<String>** |   | [optional] [default to new ArrayList<>()]
 **email**| **String** |   | [optional]
 
 
