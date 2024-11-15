@@ -51,7 +51,7 @@ import GeminiCommerce.Paymentprocessor.JSON;
 /**
  * PaymentprocessorTransaction
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-11-14T11:54:07.381606329Z[Etc/UTC]", comments = "Generator version: 7.9.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-11-15T16:36:51.431417604Z[Etc/UTC]", comments = "Generator version: 7.9.0")
 public class PaymentprocessorTransaction {
   public static final String SERIALIZED_NAME_PAYMENT_ID = "paymentId";
   @SerializedName(SERIALIZED_NAME_PAYMENT_ID)

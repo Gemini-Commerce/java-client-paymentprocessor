@@ -48,7 +48,7 @@ import GeminiCommerce.Paymentprocessor.JSON;
 /**
  * PaymentprocessorPerformPaymentResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-11-14T11:54:07.381606329Z[Etc/UTC]", comments = "Generator version: 7.9.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-11-15T16:36:51.431417604Z[Etc/UTC]", comments = "Generator version: 7.9.0")
 public class PaymentprocessorPerformPaymentResponse {
   public static final String SERIALIZED_NAME_IS_UPFRONT = "isUpfront";
   @SerializedName(SERIALIZED_NAME_IS_UPFRONT)
